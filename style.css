@@ -1,0 +1,43 @@
+body{
+  background-color:black;
+}
+
+h1{
+  color:grey;
+  font-size:3em;
+  font-family: "Times New Roman",Times, Serif;
+  
+  }
+
+p{
+  color:yellow;
+  font-style: italic;
+  font-size: 1em;
+}
+
+button{
+  border: 2px solid red;
+}
+
+#quote, #author{
+  color: white;
+}
+
+#quotes{
+  background-color: grey;
+  width: 33%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid white;
+  padding:20px;
+}
+
+#quote{
+  font-size:30px;
+}
+
+#author{
+  font-size: small;
+  font-style:italic;
+}
