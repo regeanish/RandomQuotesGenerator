@@ -1,3 +1,5 @@
+// Using forismatic.com API for generating random quotes
+
 $(document).ready(function(){
 var randomNumber;
 var randomQuote
