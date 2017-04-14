@@ -6,8 +6,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css">
         <script src="client.js"></script>
-    </head>
-    
+    </head>    
 <body>
 
 <div class="container fluid text-center">
@@ -15,8 +14,17 @@
   <p>These are some of the quotes!!!</p>
   <img src="images/images.jpg"/>
   <br/><br/>
-  <button type="submit" class="btn btn-default">New Quote</button><br/><br/>
-  <div id="quotes"><br/><br/>
+  <button type="submit" class="btn btn-success" id="newQuote">New Quote</button>
+ 
+<!--
+       twitter button  
+      <a href="https://twitter.com/share" class="twitter-share-button btn-default" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br/><br/>
+-->
+      
+<!--    <a class='btn btn-primary' id='tweet' href='#' target='_blank' role='button'><i class="fa fa-twitter"></i>Tweet</a><br/><br/>-->
+
+<button type="submit" class="btn btn-default" id="tweet">Tweet</button><br/><br/>
+  <div id="quotes">
     <span id="quote">Hello, World</span>
     <span id="author"> ~ THis is your friend</span>
   </div>
